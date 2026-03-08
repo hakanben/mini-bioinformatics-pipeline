@@ -29,7 +29,8 @@ After cloning the project, to create the Conda environment containing the necess
 
 ```bash
 conda env create -f environment.yml
-conda activate longread_env
+conda activate longread_env ```
+
 
 
 Subject: Preliminary Quality Analysis and Post-Processing Strategy for Barcode 77
