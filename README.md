@@ -13,6 +13,15 @@ This project is an automated Snakemake workflow that extracts and visualizes qua
 ![Custom Distribution Plots](results/plots/barcode77_distributions.png)
 
 #### 3. Key Statistics
+Total Reads: 81,011
+Total Yield: 84.1 Mb
+Read Length N50: 1,761 bp
+Mean Read Length: 1,038.2 bp
+Mean Read Quality (Phred): 8.9
+Median Read Quality: 9.9
+Data Reliability:
+>Q10: 39,370 reads (48.6%)
+>Q15: 6,878 reads (8.5%)
 For a more detailed and interactive analysis, you can download the full [NanoPlot HTML Report](./results/nanoplot/NanoPlot-report.html).
 
 # Installation
