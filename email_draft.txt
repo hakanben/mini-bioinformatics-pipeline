@@ -2,10 +2,7 @@ Subject: Preliminary Quality Analysis and Post-Processing Strategy for Barcode 7
 
 Dear Professor Kılıç,
 
-I have completed the preliminary quality control and metrics analysis for the Barcode 77 raw sequencing data. To evaluate the long-read characteristics, I utilized the NanoPlot tool and developed a custom Python script to extract specific read metrics.
-Our analysis yielded a total of 81,011 reads with an N50 of 1,761 bp. The GC content is approximately 53%, exhibiting a unimodal distribution, which suggests the sample is free from significant external contamination.
-Regarding data quality, the results indicate that 48.6% of reads exceed the Q10 threshold. To optimize the dataset for high-accuracy analysis, I recommend a quality trimming and filtering step using Chopper. By applying a quality --min_qual 10 filter, we can effectively remove the low-quality noise while preserving our most valuable long-read data.
-Following this refinement with Chopper, we can confidently proceed to the genomic alignment phase. Please let me know if you would like me to initiate the filtering process.
+I have completed the preliminary quality control and metrics analysis for the Barcode 77 raw sequencing data. To evaluate the long-read characteristics, I utilized the NanoPlot tool and developed a custom Python script to extract specific read metrics. Our analysis yielded a total of 81,011 reads with an N50 of 1,761 bp. The GC content is approximately 53%, exhibiting a unimodal distribution, which suggests the sample is free from significant external contamination. Regarding data quality, the results indicate that 48.6% of reads exceed the Q10 threshold. To optimize the dataset for high-accuracy analysis, I recommend a quality trimming and filtering step using Chopper. By applying a quality --min_qual 10 filter, we can effectively remove the low-quality noise while preserving our most valuable long-read data. Following this refinement with Chopper, we can confidently proceed to the genomic alignment phase. Please let me know if you would like me to initiate the filtering process.
 
 Best regards,
 Hakan Büyüktuncay
