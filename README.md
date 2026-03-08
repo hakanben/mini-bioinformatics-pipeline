@@ -20,8 +20,8 @@ Mean Read Length: 1,038.2 bp
 Mean Read Quality (Phred): 8.9
 Median Read Quality: 9.9
 Data Reliability:
->Q10: 39,370 reads (48.6%)
->Q15: 6,878 reads (8.5%)
+Q10+: 39,370 reads (48.6%)
+Q15+: 6,878 reads (8.5%)
 For a more detailed and interactive analysis, you can download the full [NanoPlot HTML Report](./results/nanoplot/NanoPlot-report.html).
 
 # Installation
