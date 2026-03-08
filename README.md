@@ -6,7 +6,7 @@ This project is an automated Snakemake workflow that extracts and visualizes qua
 
 #### 1. Read Quality and Length Distribution
 
-![Read Quality and Length Distribution](results/nanoplot/LengthvsQualityScatterPlot_kde.html)
+[Read Quality and Length Distribution](results/nanoplot/LengthvsQualityScatterPlot_kde.html)
 
 #### 2. Comprehensive Metrics (Custom Analysis)
 
