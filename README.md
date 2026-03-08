@@ -29,11 +29,11 @@ After cloning the project, to create the Conda environment containing the necess
 
 ```bash
 conda env create -f environment.yml
-conda activate longread_env ```
+conda activate longread_env
 
 
-
-Subject: Preliminary Quality Analysis and Post-Processing Strategy for Barcode 77
+---
+#Subject: Preliminary Quality Analysis and Post-Processing Strategy for Barcode 77
 
 Dear Professor Kılıç,
 I have completed the preliminary quality control and metrics analysis for the Barcode 77 raw sequencing data. To evaluate the long-read characteristics, I utilized the NanoPlot tool and developed a custom Python script to extract specific read metrics.
